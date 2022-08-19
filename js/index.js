@@ -18,7 +18,6 @@ class ElementoCarrito {
 /**
  * Definiciones de constantes
  */
-const estandarDolaresAmericanos = Intl.NumberFormat('en-US');
 
 //Arrays donde guardaremos catálogo de productos y elementos en carrito
 const productos = [];
