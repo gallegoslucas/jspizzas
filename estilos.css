@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Flex:opsz@8..144&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+.fondoindex {
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    height: max-content;
+}
+
+.menus {
+    font-family:"Playfair Display",
+        serif;
+    color: #8b863a;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* FOOTER DE TODAS LAS PAGINAS*/
+.pie-pagina {
+    width: 100%;
+    border-top: solid #2d3436 1px;
+}
+
+.pie-pagina .grupo2 {
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: #8b863a;
+}
+
+.container-fluid .row {
+    padding: 3% 0 0 5%;
+}
+
+.container-fluid .row .box {
+    font-family: "Playfair Display", serif;
+    color: #8b863a;
+    margin-bottom: 25px;
+}
+
+.container-fluid .row .box i h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+.container-fluid .row .box article {
+    padding-top: 20px;
+    display: flex;
+}
+
+.container-fluid .row .box article i {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.container-fluid .row .box .red-social {
+    column-gap: 35px;
+}
+
+.container-fluid .row .box .red-social a {
+    display: inline-block;
+    color: #8b863a;
+    background-color: #2d3436;
+    line-height: 45px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+    transition: all 1.5s ease;
+    column-gap: 80px;
+}
+
+.container-fluid .row .box .red-social a:hover {
+    color: #000000;
+    background-color: #8b863a;
+}
+
+/* barra */
+.barramenu-menu {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    column-gap: 35px;
+    padding-bottom: 20px;
+
+   
+}
+ .barramenu-menu span a {
+    font-family: 'Playfair Display',
+        serif;
+    color: #8b863a;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 1s ease;
+    column-gap: 35px;
+    animation: fadeIn;
+    animation-duration: 4s;}
+
+.barramenu-menu span a:hover {
+    padding: 5px 10px;
+    background-color: #cec877;
+    color: black;
+    border-radius: 15px;
+}
+.barra {
+    display: grid;
+    background-color: black;
+    width: 100%;
+
+
+
+}
+
+.barra .titulos {
+        display: grid;
+        text-align: start;
+    
+ }
+.titulo-menu {
+
+    padding: 20px 0 0 20px;
+    font-family: 'Playfair Display',
+        serif;
+    color: #8b863a;
+    font-size: 30px;
+    animation: fadeIn;
+    animation-duration: 4s;
+
+
+}
+
+.subtitulo-menu {
+    font-family:'Playfair Display',
+        serif;
+    color: #8b863a;
+    padding: 0 0 0 30px;
+    font-size: 15px;
+    width: 100%;
+    animation: fadeIn;
+    animation-duration: 4s;
+
+
+}
+
+.card{
+font-family: 'Playfair Display',
+        serif;
+    color: #8b863a;
+    background-color: black;
+}
+
+.card-img-top{
+    height: 60%;
+    
+}
+
+.barramenu-menu i:hover{
+    color: black ;
+    
+    
+    
+}
+
+.barramenu-menu button{
+    font-family: 'Playfair Display',
+            serif;
+        color: #8b863a;
+        text-decoration: none;
+        font-size: 30px;
+       
+        border: 0px;
+        background-color: #000000;
+}
