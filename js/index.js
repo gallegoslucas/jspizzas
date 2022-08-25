@@ -21,7 +21,7 @@ class ElementoCarrito {
 
 //Arrays donde guardaremos catálogo de productos y elementos en carrito
 const productos = [];
-const elementosCarrito = [];
+let elementosCarrito = [];
 
 const contenedorProductos = document.getElementById('contenedor-productos');
 
@@ -90,21 +90,28 @@ function dibujarCarrito() {
                 removerProductoCarrito(elemento);
                 dibujarCarrito();
             });
-
         }
     );
 
-    if (elementosCarrito.length == 0) {
-        contenedorFooterCarrito.innerHTML = `
-            <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
-        `;
-    } else {
-        contenedorFooterCarrito.innerHTML = `
-            <th scope="row" colspan="5">Total de la compra: $${(sumaCarrito)}</th>
-        `;
-    }
-
+        if (elementosCarrito.length == 0) {
+            contenedorFooterCarrito.innerHTML = `
+                <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+            `;
+        } else {
+            contenedorFooterCarrito.innerHTML = `
+                <th scope="row" colspan="5">Total de la compra: $${(sumaCarrito)}</th>
+            `;
+        }
+    localStorage.setItem("elementosCarrito", JSON.stringify(elementosCarrito))
 }
+
+// RECUPERAR CARRITO
+if (localStorage.getItem("elementosCarrito") != null) {
+    elementosCarrito = JSON.parse(localStorage.getItem("elementosCarrito"));
+
+};
+
+
 
 function removerProductoCarrito(elementoAEliminar) {
     const elementosAMantener = elementosCarrito.filter((elemento) => elementoAEliminar.producto.id != elemento.producto.id);
