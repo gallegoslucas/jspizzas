@@ -50,7 +50,7 @@ dibujarCatalogoProductos();
 
 function cargarProductos() {
     productos.push(new Producto(1, 'Margarita', 800, 'Salsa de tomate, ajo, oregano, albahaca, acSalsa de tomate, mozzarella, cebolla.eite de oliva.', './img/margarita.jpg'));
-    productos.push(new Producto(4, 'Fugazzeta', 900, 'Salsa de tomate, mozzarella, cebolla.', './img/fugazzeta.jpg'))
+    productos.push(new Producto(2, 'Fugazzeta', 900, 'Salsa de tomate, mozzarella, cebolla.', './img/fugazzeta.jpg'))
     productos.push(new Producto(3, 'Calabresa', 900, 'Salsa de tomate, mozzarella, calabresa.', './img/calabresa.jpg'));
     productos.push(new Producto(4, 'Rucula y jamon crudo', 950, 'Salsa de tomate, mozzarella, rucula, jamon crudo, parmesano.', './img/ruculaycrudo.jpg'));
 }
