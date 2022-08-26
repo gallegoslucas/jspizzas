@@ -1,3 +1,5 @@
+
+
 class Producto {
     constructor(id, nombre, precio, ingredientes, foto) {
         this.id = id;
@@ -22,7 +24,11 @@ class ElementoCarrito {
 //Arrays donde guardaremos catálogo de productos y elementos en carrito
 const productos = [];
 let elementosCarrito = [];
+// RECUPERAR CARRITO
+if (localStorage.getItem("elementosCarrito") != null) {
+    elementosCarrito = JSON.parse(localStorage.getItem("elementosCarrito"));
 
+};
 const contenedorProductos = document.getElementById('contenedor-productos');
 
 const contenedorCarritoCompras = document.querySelector("#items")
@@ -50,8 +56,6 @@ function cargarProductos() {
 }
 
 function cargarCarrito() { }
-
-
 
 function dibujarCarrito() {
 
@@ -105,11 +109,7 @@ function dibujarCarrito() {
     localStorage.setItem("elementosCarrito", JSON.stringify(elementosCarrito))
 }
 
-// RECUPERAR CARRITO
-if (localStorage.getItem("elementosCarrito") != null) {
-    elementosCarrito = JSON.parse(localStorage.getItem("elementosCarrito"));
 
-};
 
 
 
