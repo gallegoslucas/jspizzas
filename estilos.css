@@ -181,7 +181,99 @@ font-family: 'Playfair Display',
         color: #8b863a;
         text-decoration: none;
         font-size: 30px;
-       
+        height: 50px;
         border: 0px;
         background-color: #000000;
+}
+
+/*MENUS*/
+.menus {
+    font-family: "Playfair Display", serif;
+    color: #8b863a;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menupizzaspanes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0 50px 0px;
+    width: 100%;
+}
+
+.menupizzaspanes .menupizzas {
+    width: 350px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px #000000;
+    transition: all 1s;
+}
+
+.menupizzaspanes .menupizzas:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.menupizzaspanes .menupizzas .capa {
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    margin-top: 100%;
+    margin-left: 38%;
+    font-family: "Playfair Display", serif;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 0px 15px 40px #000000;
+    background-color: #000000;
+    color: #8b863a;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menupizzaspanes .menupizzas img {
+    width: 100%;
+    height: 100%;
+}
+
+.menupizzaspanes .menupanes {
+    width: 350px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px #000000;
+    transition: all 1s;
+}
+
+.menupizzaspanes .menupanes:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.menupizzaspanes .menupanes .capa {
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    margin-top: 100%;
+    margin-left: 38%;
+    font-family: "Playfair Display", serif;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 0px 15px 40px #000000;
+    background-color: #000000;
+    color: #8b863a;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menupizzaspanes .menupanes img {
+    width: 100%;
+    height: 100%;
 }

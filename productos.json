@@ -1,0 +1,19 @@
+[{
+        "id": 1,
+        "foto": "./img/Baguette.jpg",
+        "nombre": "Baguette",
+        "precio": 300
+    },
+    {
+        "id": 2,
+        "foto": "./img/focaccia.jpg",
+        "nombre": "Focaccia",
+        "precio": 650
+    },
+    {
+        "id": 3,
+        "foto": "./img/pandecampo.jpg",
+        "nombre": "Pan de campo",
+        "precio": 400
+    }
+]
