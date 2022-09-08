@@ -84,25 +84,7 @@ function eliminar(id){
     Swal.fire("Producto eliminado del carro!")
 }
 
-function ordenar() {
-    let seleccion = document.getElementById("miSeleccion").value;
-    console.log(seleccion)
-    if (seleccion == "menor") {
-        productosJSON.sort(function(a, b) {
-            return a.precio - b.precio
-        });
-    } else if (seleccion == "mayor") {
-        productosJSON.sort(function(a, b) {
-            return b.precio - a.precio
-        });
-    } else if (seleccion == "alfabetico") {
-        productosJSON.sort(function(a, b) {
-            return a.nombre.localeCompare(b.nombre);
-        });
-    }
-    lista.innerHTML="";
-    renderizarProductos();
-}
+
 
 //GETJSON de productos.json
 async function obtenerJSON() {
