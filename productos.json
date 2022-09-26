@@ -11,21 +11,20 @@
         "foto": "./img/fugazzeta.jpg",
             "nombre": "Fugazzeta",
             "ingredientes":"Salsa de tomate, mozzarella, cebolla.",
-            
+           
             "precio": 900
         },{
         "id": 3,
         "foto": "./img/calabresa.jpg",
         "nombre": "Calabresa",
         "ingredientes":"Salsa de tomate, mozzarella, calabresa.",
-        
+       
         "precio": 900
         },{
             "id": 4,
             "foto": "./img/ruculaycrudo.jpg",
             "nombre": "Rucula y jamon crudo",
             "ingredientes":"Salsa de tomate, mozzarella, rucula, jamon crudo, parmesano.",
-            
             "precio": 950
         },
 
@@ -34,7 +33,6 @@
         "foto": "./img/Baguette.jpg",
         "nombre": "Baguette",
         "ingredientes": "",
-        
         "precio": 300
     },
     {
@@ -42,7 +40,6 @@
         "foto": "./img/focaccia.jpg",
         "nombre": "Focaccia",
         "ingredientes": "",
-        "cantidad": 1,
         "precio": 650
     },
     {
@@ -50,7 +47,6 @@
         "foto": "./img/pandecampo.jpg",
         "nombre": "Pan de campo",
         "ingredientes": "",
-        
         "precio": 400
     }
 ]
